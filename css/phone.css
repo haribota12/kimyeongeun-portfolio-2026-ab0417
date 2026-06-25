@@ -7,7 +7,7 @@
     nav{display: none;}
 
     .header_mobile_menu{display: none; position: absolute; top: 100px; left: 50%; transform: translateX(-50%); color: #fff; font-size: 1.7em; background: #3131317c; width: 100%; text-align: center;}
-    .header_mobile_menu>ul>li>a{display: block; width: 100%; padding: 30px;}
+    .header_mobile_menu>ul>li>a{display: block; width: 100%; padding: 20px;}
     .header_mobile_menu>ul>li>a:hover{background: #cccccc2c;}
 
     .header_hamberger{display: block; position: absolute; right: 20px; top: 50%; transform: translateY(-50%); font-size: 1.6em;}
@@ -18,7 +18,7 @@
     .main_title p{font-size: 1em;}
 
     .aboutme_space{width: 100%; text-align: center;}
-    .aboutme_space h1{font-size: 2em; padding: 100px 20px;}
+    .aboutme_space h1{font-size: 2.4em; padding: 100px 20px;}
 
     .aboutme{width: 100%;}
     .aboutme_box{display: block; width: 100%; padding: 0 20px;}
@@ -28,15 +28,15 @@
 
     .intro_box{background: none; border: 0; border-radius: 0; width: 100%;}
     .intro_box h2{padding: 0; font-size: 1em;}
-    .intro_box p img{width: 50%; object-fit: contain; padding: 80px 0;}
-    .intro_box table{font-size: 0.8em;}
+    .intro_box p img{width: 50%; object-fit: contain; padding: 80px 0 40px;}
+    .intro_box table{font-size: 0.9em;}
     .intro_box table td{padding: 10px; text-align: right; width: 90px;}
     .intro_box table th{width: 150px;}
 
     .license_box{height: auto; width: 100%; text-align: left;}
-    .license_box h1{font-size: 2em; padding-top: 100px; padding-bottom: 0;}
+    .license_box h1{font-size: 2.4em; padding-top: 100px; padding-bottom: 0;}
 
-    .licen{font-size: 0.7em; padding: 60px 0;}
+    .licen{font-size: 0.9em; padding: 60px 0;}
     .dot:before{content: "⋅"; padding: 10px; font-weight: bold;}
 
     .license_box h2{font-size: 2em; padding-top: 0; padding-bottom: 60px;}
@@ -47,7 +47,7 @@
     .skills li img{width: 50%; height: auto; object-fit: contain; padding-top: 2px; margin: 0;}
 
     .project_space{width: 100%; text-align: center;}
-    .project_space h1{font-size: 2em; padding: 100px 20px;}
+    .project_space h1{font-size: 2.4em; padding: 100px 20px;}
 
     .project{width: 100%; height: 980px; padding: 0 20px;}
 
@@ -73,7 +73,7 @@
     .tabcon_text_button li:focus a{background: rgba(255,255,255,.1);}
 
     .design_space{width: 100%; text-align: center;}
-    .design_space h1{font-size: 2em; padding: 100px 20px;}
+    .design_space h1{font-size: 2.4em; padding: 100px 20px;}
 
     .design{padding-top: 10px; padding-bottom: 100px;}
 
