@@ -65,9 +65,9 @@
 
     .tabcontext{text-align: center; width: 100%; height: auto; padding: 60px 0 0 0;}
     .tabcontext h1{font-size: 1.8em; padding-bottom: 60px; font-weight: 500;}
-    .tabcontext p{font-size: 1em; font-weight: 300;}
+    .tabcontext p{font-size: 1em; font-weight: 300; padding-bottom: 60px;}
 
-    .tabcon_text_button li a{display: block; font-size: 1.2em; font-weight: 300; background: rgba(255,255,255,.2); width: 100%; padding: 25px; border-radius: 30px; border: 1px solid #313131;}
+    .tabcon_text_button li a{display: block; font-size: 1.2em; font-weight: 300; background: rgba(255,255,255,.2); width: 100%; padding: 20px; border-radius: 30px; border: 1px solid #313131;}
 
     .tabcon_text_button li a:hover,
     .tabcon_text_button li:focus a{background: rgba(255,255,255,.1);}
