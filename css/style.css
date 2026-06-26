@@ -108,7 +108,8 @@ footer{width: 100%; margin: auto; height: 200px; background: #181818; color: #cc
 .footertxt p{font-size: 1.3em; font-weight: 400; padding-top: 80px;}
 
 .upbutton{position: fixed; bottom: 100px; right: 100px; z-index: 99;}
-.upbutton a{display: block; width: 80px; height: 80px; background: rgba(100,100,100,.8); border-radius: 50%; padding-top: 5px; padding-left: 22px; font-size: 2.8em; font-weight: bold; color: #000;}
+.upbutton a{display: block; width: 80px; height: 80px; background: rgba(100,100,100,.8); border-radius: 50%; color: #000; display: flex; justify-content: center; align-items: center;}
+.upbutton a svg{width: 40px; height: auto; }
 
 .fade{opacity: 0; transition: all 2s;}
 

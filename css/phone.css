@@ -85,7 +85,8 @@
     .footertxt p{font-size: 1em; font-weight: 400; padding-top: 80px;}
 
     .upbutton{position: fixed; bottom: 30px; right: 30px;}
-    .upbutton a{display: block; width: 80px; height: 80px; background: rgba(100,100,100,.8); border-radius: 50%; padding-top: 5px; padding-left: 22px; font-size: 2.8em; font-weight: bold; color: #000;}
+    .upbutton a{display: block; width: 60px; height: 60px; background: rgba(100,100,100,.8); border-radius: 50%; font-weight: bold; color: #000; display: flex; justify-content: center; align-items: center; padding: 0; margin: 0;}
+    .upbutton a svg{width: 30px; height: auto;}
 
     .contactbox{top: 100px; position: fixed;}
 
