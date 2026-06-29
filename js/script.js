@@ -33,8 +33,7 @@ $(function(){
 
         $(".tabcon").hide();
         $(".tabcon").eq(i).show();
-
-        return false;
+        
     })
 
 
