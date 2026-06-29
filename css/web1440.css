@@ -1,6 +1,15 @@
 @media screen and (max-width: 1440px){
 
-    .aboutme{width: calc(100vw - 160px); height: auto; margin: auto; color: #fff;}
+    header{width: calc(100vw - 80px); height: 100px; margin: auto; position: relative;}
+    header h1{padding-top: 5px;}
+
+    nav{position: absolute; right: 0; top: 35px; color: #fff; z-index: 10;}
+    nav>ul{display: flex; gap: 1em;}
+    nav>ul>li{width: 4em; text-align: center;}
+    nav>ul>li>a{display: block; font-size: 1.3em; font-weight: 400;}
+    nav>ul>li>a:focus,
+    nav>ul>li:hover>a,
+    nav>ul>li.on>a{color: #ccc;}
 
     .aboutme_box{display: flex; text-align: center; justify-content: space-around; padding-top: 100px;}
 
