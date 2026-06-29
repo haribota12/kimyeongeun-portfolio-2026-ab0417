@@ -25,11 +25,15 @@ $(function(){
 
 
 
-    $(".tabmenu>li").click(function(){
-        $(".tabmenu>li").removeClass("on");
-        $(this).addClass("on");
+    $(".tabmenu>li>h1>a").click(function(e){
+        e.preventDefault();
 
-        i = $(this).index();
+        var $li = $(this).closest('li');
+
+        $(".tabmenu>li").removeClass("on");
+        $li.addClass("on");
+
+        var i = $li.index();
 
         $(".tabcon").hide();
         $(".tabcon").eq(i).show();
