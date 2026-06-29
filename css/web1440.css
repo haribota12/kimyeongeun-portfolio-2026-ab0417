@@ -6,7 +6,7 @@
     nav{position: absolute; right: 0; top: 35px; color: #fff; z-index: 10;}
     nav>ul{display: flex; gap: 2em;}
     nav>ul>li{width: 6em; text-align: center;}
-    nav>ul>li>a{display: block; font-size: 1.3em; font-weight: 400;}
+    nav>ul>li>a{display: block; font-size: 1.4em; font-weight: 400;}
     nav>ul>li>a:focus,
     nav>ul>li:hover>a,
     nav>ul>li.on>a{color: #ccc;}
