@@ -41,7 +41,7 @@
 
     .project_space{width: calc(100vw - 60px); margin: auto; height: auto;}
 
-    .project{width: calc(100vw - 60px); height: 1100px; margin: auto; color: #fff; text-align: center; position: relative;}
+    .project{width: calc(100vw - 60px); height: 1200px; margin: auto; color: #fff; text-align: center; position: relative;}
 
     .tabmenu{padding-top: 100px;}
     .tabmenu>li{display: inline-block; width: 300px; height: auto; border-right: 1px solid #fff; padding-left: 10px; padding-right: 10px;}
@@ -51,10 +51,10 @@
 
     .tabcon{position: absolute; width: calc(100vw - 60px); height: auto; margin: auto; left: 0; padding-top: 110px;}
 
-    .monitor{width: 55%; height: 800px; background: #fff; border-radius: 30px;}
-    .monitor img{width: 600px; padding-top: 110px; object-fit: contain;}
+    .monitor{width: 55%; height: 900px; background: #fff; border-radius: 30px;}
+    .monitor img{width: 90%; object-fit: contain;}
 
-    .tabcontext{height: 800px; padding: 120px 0;}
+    .tabcontext{height: 900px; padding: auto 0;}
 
     .design_space{width: calc(100vw - 60px); margin: auto; height: auto;}
 

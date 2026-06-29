@@ -41,10 +41,10 @@
     .tabmenu>li>h1>a{display: block; text-align: center;  font-size: 0.9em; font-weight: 400; padding: 10px;}
     .tabmenu>li:last-child{border-right: none;}
 
-    .monitor{width: 55%; height: 800px; background: #fff; border-radius: 30px;}
-    .monitor img{width: 600px; padding-top: 110px; object-fit: contain;}
+    .monitor{width: 55%; height: 750px; background: #fff; border-radius: 30px;}
+    .monitor img{width: 550px; object-fit: contain;}
 
-    .tabcontext{height: 800px; padding: 120px 0;}
+    .tabcontext{height: 750px; padding: 20px 0;}
 
 
 
