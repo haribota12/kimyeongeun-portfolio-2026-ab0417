@@ -67,12 +67,12 @@ nav>ul>li.on>a{color: #ccc;}
 .project_space{width: calc(100vw - 160px); margin: auto; height: auto;}
 .project_space h1{font-size: 8em; color: #fff; padding: 150px 0 0 0;}
 
-.project{width: calc(100vw - 160px); height: 1180px; margin: auto; color: #fff; text-align: center; position: relative;}
+.project{width: calc(100vw - 160px); height: 1200px; margin: auto; color: #fff; text-align: center; position: relative;}
 
 .tabmenu{padding-top: 100px;}
-.tabmenu>li{display: inline-block; width: 400px; border-right: 1px solid #fff; padding: 0 30px;}
-.tabmenu>li.on>h1>a{background: rgba(255,255,255,.5); border-radius: 10px; padding: 15px;}
-.tabmenu>li>h1>a{display: block; text-align: center;  font-size: 1.2em; font-weight: 400;}
+.tabmenu>li{display: inline-block; width: 400px; height: auto; border-right: 1px solid #fff; padding-left: 10px; padding-right: 10px;}
+.tabmenu>li.on>h1>a{background: rgba(255,255,255,.5); border-radius: 10px;}
+.tabmenu>li>h1>a{display: block; text-align: center;  font-size: 1.2em; font-weight: 400; padding: 10px;}
 .tabmenu>li:last-child{border-right: none;}
 
 .tabcon{position: absolute; width: calc(100vw - 160px); height: auto; margin: auto; left: 0; padding-top: 110px;}
@@ -86,12 +86,13 @@ nav>ul>li.on>a{color: #ccc;}
 .monitor{width: 55%; height: 900px; background: #fff; border-radius: 30px;}
 .monitor img{width: 700px; padding-top: 110px; object-fit: contain;}
 
-.tabcontext{text-align: center; width: 45%; height: 900px; padding: 150px 0;}
+.tabcontext{text-align: center; width: 45%; height: 900px; padding: 90px 0;}
 .tabcontext h1{font-size: 4em; padding-bottom: 60px;}
 .tabcontext p{font-size: 1.5em; font-weight: 300; padding-bottom: 80px;}
 
 .tabcon_text_button li a{display: inline-block; font-size: 1.7em; font-weight: 300; background: rgba(49,49,49,.4); width: 450px; padding: 25px; border-radius: 30px; border: 1px solid #313131;}
-.tabcon_text_button li:first-child{padding-bottom: 30px;}
+.tabcon_text_button li:nth-child(1){padding-bottom: 30px;}
+.tabcon_text_button li:nth-child(2){padding-bottom: 30px;}
 
 .tabcon_text_button li a:hover,
 .tabcon_text_button li:focus a{background: rgba(49,49,49,.8);}
