@@ -54,7 +54,7 @@
     .tabmenu{padding-top: 0; white-space: nowrap;}
     .tabmenu>li{display: inline-block; width: 400px; height: auto; border-right: 1px solid #fff; padding-left: 5px; padding-right: 5px;}
     .tabmenu>li.on>h1>a{background: rgba(255,255,255,.5); border-radius: 10px;}
-    .tabmenu>li>h1>a{display: block; text-align: center;  font-size: 0.5em; font-weight: 400; padding: 10px;}
+    .tabmenu>li>h1>a{display: block; text-align: center;  font-size: 0.55em; font-weight: 400; padding: 10px;}
     .tabmenu>li:last-child{border-right: none;}
 
     .tabcon{width: 100%; height: auto; padding-top: 60px;}
@@ -67,7 +67,7 @@
     .tabcontext h1{font-size: 1.8em; padding-bottom: 60px; font-weight: 500;}
     .tabcontext p{font-size: 1em; font-weight: 300; padding-bottom: 60px;}
 
-    .tabcon_text_button li a{display: block; font-size: 1.2em; font-weight: 300; background: rgba(255,255,255,.2); width: 100%; padding: 20px; border-radius: 30px; border: 1px solid #313131;}
+    .tabcon_text_button li a{display: block; font-size: 1.1em; font-weight: 300; background: rgba(255,255,255,.2); width: 100%; padding: 15px; border-radius: 30px; border: 1px solid #313131;}
 
     .tabcon_text_button li a:hover,
     .tabcon_text_button li:focus a{background: rgba(255,255,255,.1);}
