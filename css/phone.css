@@ -88,6 +88,10 @@
     .upbutton a{display: block; width: 60px; height: 60px; background: rgba(100,100,100,.8); border-radius: 50%; font-weight: bold; color: #000; display: flex; justify-content: center; align-items: center; padding: 0; margin: 0;}
     .upbutton a svg{width: 30px; height: auto;}
 
-    .contactbox{top: 100px; position: fixed;}
+    .contactbox{position: absolute; top: 100px; left: 50%; transform: translateX(-50%); width: 60%; height: auto; background: #0c0c0c; color: #fff; border: 2px solid #818181; border-radius: 30px; padding: 30px; display: none;}
+    .contacttxt h2{font-size: 1.2em; font-weight: 300;}
+    .contacttxt h1{font-size: 2em; font-weight: 500;}
+    .contacttxt p{padding-top: 40px; font-size: 1.2em; font-weight: 300;}
+    .contacttxt span{display: block; font-size: 1.2em; font-weight: 300; padding-top: 10px;}
 
 }
