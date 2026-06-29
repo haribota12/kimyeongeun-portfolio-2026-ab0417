@@ -4,12 +4,16 @@
     header h1{padding-top: 5px;}
 
     nav{position: absolute; right: 0; top: 35px; color: #fff; z-index: 10;}
-    nav>ul{display: flex; gap: 1em;}
-    nav>ul>li{width: 4em; text-align: center;}
+    nav>ul{display: flex; gap: 2em;}
+    nav>ul>li{width: 6em; text-align: center;}
     nav>ul>li>a{display: block; font-size: 1.3em; font-weight: 400;}
     nav>ul>li>a:focus,
     nav>ul>li:hover>a,
     nav>ul>li.on>a{color: #ccc;}
+
+    .aboutme_space{width: calc(100vw - 60px); margin: auto; height: auto;}
+
+    .aboutme{width: calc(100vw - 60px); height: auto; margin: auto; color: #fff;}
 
     .aboutme_box{display: flex; text-align: center; justify-content: space-around; padding-top: 100px;}
 
@@ -35,18 +39,26 @@
     .skills li img{width: 70px; height: auto; object-fit: contain; margin: 0; padding-top: 15px;}
     .skills_2 li img{width: 80px; height: auto; object-fit: contain; margin: 0; padding-top: 25px;}
 
+    .project_space{width: calc(100vw - 60px); margin: auto; height: auto;}
+
+    .project{width: calc(100vw - 60px); height: 1180px; margin: auto; color: #fff; text-align: center; position: relative;}
+
     .tabmenu{padding-top: 100px;}
     .tabmenu>li{display: inline-block; width: 350px; border-right: 1px solid #fff; padding: 0 20px;}
     .tabmenu>li.on>h1>a{background: rgba(255,255,255,.5); border-radius: 10px; padding: 15px;}
     .tabmenu>li>h1>a{display: block; text-align: center;  font-size: 1em; font-weight: 400;}
     .tabmenu>li:last-child{border-right: none;}
 
+    .tabcon{position: absolute; width: calc(100vw - 60px); height: auto; margin: auto; left: 0; padding-top: 110px;}
+
     .monitor{width: 55%; height: 800px; background: #fff; border-radius: 30px;}
     .monitor img{width: 600px; padding-top: 110px; object-fit: contain;}
 
     .tabcontext{height: 800px; padding: 120px 0;}
 
+    .design_space{width: calc(100vw - 60px); margin: auto; height: auto;}
 
+    .swiper{width: calc(100vw - 60px); height: auto;}
 
 
 
