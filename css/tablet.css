@@ -16,7 +16,7 @@
     .intro_hidetxt{display: none;}
 
     .intro_box{background: rgba(49,49,49,.4); height: auto; width: 45%; border-radius: 20px; border: 1px solid #313131; backdrop-filter: blur(30px);}
-    .intro_box p img{width: 200px; padding-top: 100px; padding-bottom: 80px; object-fit: contain;}
+    .intro_box p img{width: 200px; padding-top: 100px; padding-bottom: 80px; object-fit: cover;}
     .intro_box table{font-size: 1em;}
     .intro_box table td{padding: 10px 20px; text-align: right;}
     .intro_box table th{font-weight: 300; text-align: left;}
@@ -32,8 +32,8 @@
     .skills_1{padding-bottom: 20px;}
 
     .skills li{background: #434343; border-radius: 50%; width: 90px; height: 90px; border: 1px solid #313131;}
-    .skills li img{width: 45px; height: auto; object-fit: contain; margin: 0; padding-top: 12px;}
-    .skills_2 li img{width: 55px; height: auto; object-fit: contain; margin: 0; padding-top: 17px;}
+    .skills li img{width: 45px; height: auto; object-fit: cover; margin: 0; padding-top: 12px;}
+    .skills_2 li img{width: 55px; height: auto; object-fit: cover; margin: 0; padding-top: 17px;}
 
     .project{height: 1050px;}
 
@@ -44,7 +44,7 @@
     .tabmenu>li:last-child{border-right: none;}
 
     .monitor{width: 55%; height: 750px; background: #fff; border-radius: 30px;}
-    .monitor img{width: 550px; object-fit: contain;}
+    .monitor img{width: 550px; object-fit: cover;}
 
     .tabcontext{height: 750px; padding: 20px 0;}
 

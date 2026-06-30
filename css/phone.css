@@ -2,7 +2,7 @@
 
     header{width: 100%; padding: 0 20px; position: fixed; background: #0c0c0c; z-index: 99;}
     header h1{width: 60%; height: 100%;}
-    header h1 img{width: 100%; height: 100%; object-fit: contain; }
+    header h1 img{width: 100%; height: 100%; object-fit: cover; }
 
     nav{display: none;}
 
@@ -28,7 +28,7 @@
 
     .intro_box{background: none; border: 0; border-radius: 0; width: 100%;}
     .intro_box h2{padding: 0; font-size: 1em;}
-    .intro_box p img{width: 50%; object-fit: contain; padding: 80px 0 40px;}
+    .intro_box p img{width: 50%; object-fit: cover; padding: 80px 0 40px;}
     .intro_box table{font-size: 0.9em;}
     .intro_box table td{padding: 10px; text-align: right; width: 90px;}
     .intro_box table th{width: 150px;}
@@ -42,9 +42,9 @@
     .license_box h2{font-size: 2em; padding-top: 0; padding-bottom: 60px;}
 
     .skills{width: 100%; gap: 5px;}
-    .skills li{background: rgba(255,255,255,.2); border-radius: 50%; width: 80px; height: 80px; object-fit: contain; border: 1px solid #313131; text-align: center; display: flex; justify-content: center;
+    .skills li{background: rgba(255,255,255,.2); border-radius: 50%; width: 80px; height: 80px; object-fit: cover; border: 1px solid #313131; text-align: center; display: flex; justify-content: center;
     align-items: center;}
-    .skills li img{width: 50%; height: auto; object-fit: contain; padding-top: 2px; margin: 0;}
+    .skills li img{width: 50%; height: auto; object-fit: cover; padding-top: 2px; margin: 0;}
 
     .project_space{width: 100%; text-align: center;}
     .project_space h1{font-size: 2.4em; padding: 100px 20px;}
@@ -61,7 +61,7 @@
     .tabcon>ul{display: inline-block; padding: 0 20px; width: 100%;}
 
     .monitor{width: 100%; height: auto; background: #fff; border-radius: 30px;}
-    .monitor img{width: 80%; object-fit: contain;}
+    .monitor img{width: 80%; object-fit: cover;}
 
     .tabcontext{text-align: center; width: 100%; height: auto; padding: 60px 0 0 0;}
     .tabcontext h1{font-size: 1.8em; padding-bottom: 60px; font-weight: 500;}
