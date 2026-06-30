@@ -76,8 +76,6 @@ $(function(){
 
 
 
-
-
     var swiper = new Swiper(".mySwiper", {
       effect: "coverflow",
       grabCursor: true,
@@ -100,8 +98,6 @@ $(function(){
         prevEl: ".swiper-button-prev",
       }
     });
-
-
 
 
 

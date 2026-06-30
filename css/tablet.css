@@ -35,6 +35,8 @@
     .skills li img{width: 45px; height: auto; object-fit: contain; margin: 0; padding-top: 12px;}
     .skills_2 li img{width: 55px; height: auto; object-fit: contain; margin: 0; padding-top: 17px;}
 
+    .project{height: 1050px;}
+
     .tabmenu{padding-top: 100px;}
     .tabmenu>li{display: inline-block; width: 300px; height: auto; border-right: 1px solid #fff; padding-left: 10px; padding-right: 10px;}
     .tabmenu>li.on>h1>a{background: rgba(255,255,255,.5); border-radius: 10px;}

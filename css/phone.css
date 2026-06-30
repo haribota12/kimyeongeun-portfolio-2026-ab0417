@@ -49,7 +49,7 @@
     .project_space{width: 100%; text-align: center;}
     .project_space h1{font-size: 2.4em; padding: 100px 20px;}
 
-    .project{width: 100%; height: 980px; padding: 0 20px;}
+    .project{width: 100%; height: 1300px; padding: 0 20px;}
 
     .tabmenu{padding-top: 0; white-space: nowrap;}
     .tabmenu>li{display: inline-block; width: 400px; height: auto; border-right: 1px solid #fff; padding-left: 5px; padding-right: 5px;}
@@ -61,7 +61,7 @@
     .tabcon>ul{display: inline-block; padding: 0 20px; width: 100%;}
 
     .monitor{width: 100%; height: auto; background: #fff; border-radius: 30px;}
-    .monitor img{width: 90%; object-fit: contain;}
+    .monitor img{width: 80%; object-fit: contain;}
 
     .tabcontext{text-align: center; width: 100%; height: auto; padding: 60px 0 0 0;}
     .tabcontext h1{font-size: 1.8em; padding-bottom: 60px; font-weight: 500;}
@@ -78,7 +78,7 @@
     .design{padding-top: 10px; padding-bottom: 100px;}
 
     .swiper{width: 100%; height: auto;}
-    .swiper li{width: 70%; height: 500px;}
+    .swiper li{width: 70%; height: 600px;}
     .swiper li a{display: inline-block; background: rgba(175,175,175,1); width: 100%; height: 100%; border-radius: 40px;} 
 
     footer{width: 100%; margin: auto; height: 200px; background: #181818; color: #ccc; text-align: center;}
@@ -95,3 +95,52 @@
     .contacttxt span{display: block; font-size: 1em; font-weight: 300; padding-top: 5px;}
 
 }
+
+    @media screen and (max-width: 799px) {
+    .project {
+        height: 1250px !important;
+    }
+    }
+
+    @media screen and (max-width: 700px) {
+    .project {
+        height: 1180px !important;
+    }
+    }
+
+    @media screen and (max-width: 600px) {
+    .project {
+        height: 1100px !important;
+    }
+    }
+    
+    @media screen and (max-width: 550px) {
+    .project {
+        height: 1050px !important;
+    }
+    }
+
+    @media screen and (max-width: 500px) {
+    .project {
+        height: 1000px !important;
+    }
+    .swiper li{width: 70%; height: 500px;}
+    }
+
+    @media screen and (max-width: 450px) {
+    .project {
+        height: 980px !important;
+    }
+    }
+
+    @media screen and (max-width: 400px) {
+    .project {
+        height: 930px !important;
+    }
+    }
+
+    @media screen and (max-width: 350px) {
+    .project {
+        height: 880px !important;
+    }
+    }
