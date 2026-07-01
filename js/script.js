@@ -83,6 +83,11 @@ $(function(){
         return false;
     })
 
+    $("nav>ul>li:last-child").click(function(){
+
+        return false;
+    })
+
 
 
 
