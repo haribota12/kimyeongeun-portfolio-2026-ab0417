@@ -40,6 +40,21 @@ nav>ul>li.on>a{color: #ccc;}
 .main_direction{position: absolute; bottom: 0; left: 50%; transform: translate(-50%, -50%) rotate(-90deg); color: #fff;}
 .main_direction p{font-size: 4em; letter-spacing: -0.15em;}
 
+@keyframes bounce{
+    0%, 100% {
+        transform: rotate(-90deg) translateX(0);
+        animation-timing-function: ease-out;
+    }
+
+    50% {
+        transform: rotate(-90deg) translateX(-10px);
+        animation-timing-function: ease-in;
+    }
+}
+
+.scroll-arrow{animation: bounce 1.5s infinite;}
+
+
 .aboutme_space{width: calc(100vw - 160px); margin: auto; height: auto;}
 .aboutme_space h1{font-size: 6em; color: #fff; padding: 100px 0 0 0; font-weight: 500;}
 
@@ -115,9 +130,10 @@ nav>ul>li.on>a{color: #ccc;}
 footer{width: 100%; margin: auto; height: 200px; background: #181818; color: #ccc; text-align: center;}
 .footertxt p{font-size: 1.3em; font-weight: 400; padding-top: 80px;}
 
-.upbutton{position: fixed; bottom: 100px; right: 100px; z-index: 99;}
+.upbutton{position: fixed; bottom: 100px; right: 100px; z-index: 99; opacity: 0; visibility: hidden; transition: opacity 0.3s ease, visibility 0.3s ease;}
+.upbutton.show{opacity: 1; visibility: visible; pointer-events: auto;}
 .upbutton a{display: block; width: 80px; height: 80px; background: rgba(100,100,100,.8); border-radius: 50%; color: #000; display: flex; justify-content: center; align-items: center;}
-.upbutton a svg{width: 40px; height: auto; }
+.upbutton a svg{width: 40px; height: auto;}
 
 .fade{opacity: 0; transition: all 2s;}
 

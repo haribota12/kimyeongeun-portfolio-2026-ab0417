@@ -42,6 +42,16 @@ $(function(){
 
 
 
+    const topBtn = document.getElementsByClassName("upbutton");
+
+    window.addEventListener("scroll", function(){
+        if (this.window.scrollY > 1136) {
+            topBtn.classList.add("show");
+        }
+        else {
+            topBtn.classList.remove("show");
+        }
+    })
 
 
     $(".upbutton").click(function(){
