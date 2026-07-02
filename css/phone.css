@@ -28,10 +28,10 @@
 
     .intro_box{background: none; border: 0; border-radius: 0; width: 100%;}
     .intro_box h2{padding: 0; font-size: 1em;}
-    .intro_box p img{width: 30%; object-fit: cover; padding: 40px 0 40px;}
+    .intro_box p img{width: 35%; object-fit: cover; padding: 40px 0 40px;}
     .intro_box table{font-size: 0.9em;}
-    .intro_box table td{padding: 5px; text-align: right; width: 90px;}
-    .intro_box table th{width: 150px;}
+    .intro_box table td{padding: 5px; text-align: right; width: 45%; padding-right: 15px;}
+    .intro_box table th{width: 55%;}
 
     .license_box{height: auto; width: 100%; text-align: left;}
     .license_box h1{font-size: 2em; padding-top: 60px; padding-bottom: 0;}

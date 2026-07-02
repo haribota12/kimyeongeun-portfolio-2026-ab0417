@@ -130,8 +130,8 @@ nav>ul>li.on>a{color: #ccc;}
 footer{width: 100%; margin: auto; height: 200px; background: #181818; color: #ccc; text-align: center;}
 .footertxt p{font-size: 1.3em; font-weight: 400; padding-top: 80px;}
 
-.upbutton{position: fixed; bottom: 100px; right: 100px; z-index: 99; display: none;}
-.upbutton.show{opacity: 1; visibility: visible; pointer-events: auto;}
+.upbutton{position: fixed; bottom: 100px; right: 100px; z-index: 99; opacity: 0; transform: translateY(20px); transition: all 0.6s ease-out;}
+.upbutton.show{opacity: 1; transform: translateY(0);}
 .upbutton a{display: block; width: 80px; height: 80px; background: rgba(100,100,100,.8); border-radius: 50%; color: #000; display: flex; justify-content: center; align-items: center;}
 .upbutton a svg{width: 40px; height: auto;}
 

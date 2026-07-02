@@ -54,10 +54,27 @@ $(function(){
     })
 
 
+
+
+
     $(".upbutton").click(function(){
         $("html, body").animate({scrollTop: 0}, 500);
         
         return false;
+    })
+
+
+    window.addEventListener('scroll', () => {
+        const target = document.querySelector(".upbutton");
+
+        const scrollPosition = window.scrollY;
+
+        if (scrollPosition > 500) {
+            target.classList.add('show');
+        }
+        else {
+            target.classList.remove('show');
+        }
     })
 
 
