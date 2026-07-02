@@ -15,7 +15,7 @@
 
     .aboutme{width: calc(100vw - 60px); height: auto; margin: auto; color: #fff;}
 
-    .aboutme_box{display: flex; text-align: center; justify-content: space-around; padding-top: 100px;}
+    .aboutme_box{display: flex; text-align: center; justify-content: space-around;}
 
     .intro_hidetxt{display: none;}
 
@@ -41,14 +41,13 @@
 
     .project_space{width: calc(100vw - 60px); margin: auto; height: auto;}
 
-    .project{width: calc(100vw - 60px); height: 1200px; margin: auto; color: #fff; text-align: center; position: relative;}
+    .project{width: calc(100vw - 60px); height: 1100px; margin: auto; color: #fff; text-align: center; position: relative;}
 
-    .tabmenu{padding-top: 100px;}
     .tabmenu>li{display: inline-block; width: 300px; height: auto; padding-left: 10px; padding-right: 10px;}
     .tabmenu>li.on>h1>a{background: rgba(255,255,255,.5); border-radius: 10px;}
     .tabmenu>li>h1>a{display: block; text-align: center;  font-size: 0.9em; font-weight: 400; padding: 10px;}
 
-    .tabcon{position: absolute; width: calc(100vw - 60px); height: auto; margin: auto; left: 0; padding-top: 110px;}
+    .tabcon{position: absolute; width: calc(100vw - 60px); height: auto; margin: auto; left: 0;}
 
     .monitor{width: 55%; height: 900px; background: #fff; border-radius: 30px;}
     .monitor img{width: 90%; object-fit: cover;}

@@ -56,11 +56,7 @@ nav>ul>li.on>a{color: #ccc;}
 
 
 .aboutme_space{width: calc(100vw - 160px); margin: auto; height: auto;}
-.aboutme_space h1{font-size: 6em; color: #fff; padding: 100px 0 0 0; font-weight: 500;
-    font-family: 'GanaChocolate';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@1.0/ghanachoco.woff') format('woff');
-    font-weight: normal;
-    font-display: swap;}
+.aboutme_space h1{font-size: 6em; color: #fff; padding: 100px 0 0 0; font-weight: 600;}
 
 .aboutme{width: calc(100vw - 160px); height: auto; margin: auto; color: #fff;}
 
@@ -90,7 +86,7 @@ nav>ul>li.on>a{color: #ccc;}
 .skills_2 li img{width: 120px; height: auto; object-fit: cover; margin: 0; padding-top: 36px;}
 
 .project_space{width: calc(100vw - 160px); margin: auto; height: auto;}
-.project_space h1{font-size: 6em; color: #fff; padding: 100px 0 0 0; font-weight: 500;}
+.project_space h1{font-size: 6em; color: #fff; padding: 100px 0 0 0; font-weight: 600;}
 
 .project{width: calc(100vw - 160px); height: 1050px; margin: auto; color: #fff; text-align: center; position: relative;}
 
@@ -122,9 +118,9 @@ nav>ul>li.on>a{color: #ccc;}
 .tabcon_text_button li:focus a{background: rgba(49,49,49,.8);}
 
 .design_space{width: calc(100vw - 160px); margin: auto; height: auto;}
-.design_space h1{font-size: 6em; color: #fff; padding: 100px 0 100px; font-weight: 500;}
+.design_space h1{font-size: 6em; color: #fff; padding: 100px 0 50px; font-weight: 600;}
 
-.design{padding-bottom: 300px;}
+.design{padding-bottom: 180px;}
 
 .swiper{width: calc(100vw - 160px); height: auto;}
 .swiper li{width: 500px; height: 700px;}
