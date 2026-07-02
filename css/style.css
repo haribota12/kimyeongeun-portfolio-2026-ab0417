@@ -60,7 +60,7 @@ nav>ul>li.on>a{color: #ccc;}
 
 .aboutme{width: calc(100vw - 160px); height: auto; margin: auto; color: #fff;}
 
-.aboutme_box{display: flex; text-align: center; justify-content: space-around; padding-top: 50px;}
+.aboutme_box{display: flex; text-align: center; justify-content: space-around; padding-top: 50px; padding-bottom: 20px;}
 
 .intro_hidetxt{display: none;}
 
@@ -86,16 +86,16 @@ nav>ul>li.on>a{color: #ccc;}
 .skills_2 li img{width: 120px; height: auto; object-fit: cover; margin: 0; padding-top: 36px;}
 
 .project_space{width: calc(100vw - 160px); margin: auto; height: auto;}
-.project_space h1{font-size: 6em; color: #fff; padding: 100px 0 0 0;}
+.project_space h1{font-size: 6em; color: #fff; padding: 100px 0 0 0; font-weight: 500;}
 
-.project{width: calc(100vw - 160px); height: 1200px; margin: auto; color: #fff; text-align: center; position: relative;}
+.project{width: calc(100vw - 160px); height: 1050px; margin: auto; color: #fff; text-align: center; position: relative;}
 
 .tabmenu{padding-top: 50px; display: flex; justify-content : center}
 .tabmenu>li{display: inline-block; width: 360px; height: auto; padding-left: 10px; padding-right: 10px;}
 .tabmenu>li.on>h1>a{background: rgba(255,255,255,.5); border-radius: 10px;}
 .tabmenu>li>h1>a{display: block; text-align: center; font-size: 1.2em; font-weight: 300; padding: 10px;}
 
-.tabcon{position: absolute; width: calc(100vw - 160px); height: auto; margin: auto; left: 0; padding-top: 110px;}
+.tabcon{position: absolute; width: calc(100vw - 160px); height: auto; margin: auto; left: 0; padding-top: 60px;}
 
 .absolut{display: block;}
 .heinz{display: none;}
@@ -103,10 +103,10 @@ nav>ul>li.on>a{color: #ccc;}
 
 .tabcon>ul{display: flex; justify-content: space-around;}
 
-.monitor{width: 55%; height: 900px; background: #fff; border-radius: 30px; display: flex; align-items: center; justify-content: center;}
-.monitor img{width: 700px; object-fit: cover; padding: 10px;}
+.monitor{width: 55%; height: 850px; background: #fff; border-radius: 30px; display: flex; align-items: center; justify-content: center;}
+.monitor img{width: 100%; object-fit: contain; padding: 10px;}
 
-.tabcontext{text-align: center; width: 45%; height: 900px; padding: 90px 0;}
+.tabcontext{text-align: center; width: 45%; height: 850px; padding: 80px 0;}
 .tabcontext h1{font-size: 4em; padding-bottom: 80px;}
 .tabcontext p{font-size: 1.5em; font-weight: 300; padding-bottom: 80px;}
 
@@ -118,7 +118,7 @@ nav>ul>li.on>a{color: #ccc;}
 .tabcon_text_button li:focus a{background: rgba(49,49,49,.8);}
 
 .design_space{width: calc(100vw - 160px); margin: auto; height: auto;}
-.design_space h1{font-size: 6em; color: #fff; padding: 100px 0 100px;}
+.design_space h1{font-size: 6em; color: #fff; padding: 100px 0 100px; font-weight: 500;}
 
 .design{padding-bottom: 300px;}
 
@@ -130,14 +130,14 @@ nav>ul>li.on>a{color: #ccc;}
 footer{width: 100%; margin: auto; height: 200px; background: #181818; color: #ccc; text-align: center;}
 .footertxt p{font-size: 1.3em; font-weight: 400; padding-top: 80px;}
 
-.upbutton{position: fixed; bottom: 100px; right: 100px; z-index: 99; opacity: 0; visibility: hidden; transition: opacity 0.3s ease, visibility 0.3s ease;}
+.upbutton{position: fixed; bottom: 100px; right: 100px; z-index: 99; display: none;}
 .upbutton.show{opacity: 1; visibility: visible; pointer-events: auto;}
 .upbutton a{display: block; width: 80px; height: 80px; background: rgba(100,100,100,.8); border-radius: 50%; color: #000; display: flex; justify-content: center; align-items: center;}
 .upbutton a svg{width: 40px; height: auto;}
 
 .fade{opacity: 0; transition: all 2s;}
 
-.contactbox{position: fixed; top: 100px; right: 150px; width: 400px; height: auto; background: #0c0c0c; color: #fff; border: 2px solid #818181; border-radius: 30px; padding: 30px; display: none;}
+.contactbox{position: fixed; top: 100px; right: 150px; width: 400px; height: auto; background: #0c0c0c; color: #fff; border: 2px solid #818181; border-radius: 30px; padding: 30px; display: none; z-index: 9;}
 .contacttxt h2{font-size: 1.2em; font-weight: 300;}
 .contacttxt h1{font-size: 2em; font-weight: 500;}
 .contacttxt p{padding-top: 40px; font-size: 1.2em; font-weight: 300;}

@@ -11,7 +11,7 @@
     nav>ul>li:hover>a,
     nav>ul>li.on>a{color: #ccc;}
 
-    .aboutme_box{display: flex; text-align: center; justify-content: space-around; padding-top: 100px;}
+    .aboutme_box{display: flex; text-align: center; justify-content: space-around; padding-top: 50px;}
 
     .intro_hidetxt{display: none;}
 
@@ -35,12 +35,14 @@
     .skills li img{width: 45px; height: auto; object-fit: cover; margin: 0; padding-top: 12px;}
     .skills_2 li img{width: 55px; height: auto; object-fit: cover; margin: 0; padding-top: 17px;}
 
-    .project{height: 1050px;}
+    .project{height: 930px;}
 
-    .tabmenu{padding-top: 100px;}
-    .tabmenu>li{display: inline-block; width: 300px; height: auto; padding-left: 10px; padding-right: 10px;}
+    .tabmenu{padding-top: 50px;}
+    .tabmenu>li{display: inline-block; width: 70%; height: auto; padding-left: 10px; padding-right: 10px;}
     .tabmenu>li.on>h1>a{background: rgba(255,255,255,.5); border-radius: 10px;}
     .tabmenu>li>h1>a{display: block; text-align: center;  font-size: 0.9em; font-weight: 400; padding: 10px;}
+
+    .tabcon{padding-top: 50px;}
 
     .monitor{width: 55%; height: 750px; background: #fff; border-radius: 30px;}
     .monitor img{width: 550px; object-fit: cover;}
