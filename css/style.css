@@ -8,9 +8,9 @@
 }
 
 @font-face {
-    font-family: 'JoseonPalace';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@1.0/ChosunGs.woff') format('woff');
-    font-weight: normal;
+    font-family: 'Aggravo';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/SBAggroL.woff') format('woff');
+    font-weight: 300;
     font-display: swap;
 }
 
@@ -69,7 +69,7 @@ nav>ul>li.on>a{color: #ccc;}
 
 
 .aboutme_space{width: calc(100vw - 160px); margin: auto; height: auto;}
-.aboutme_space h1{font-size: 6em; color: #fff; padding: 100px 0 0 0; font-weight: 500; font-family: 'JoseonPalace';}
+.aboutme_space h1{font-size: 6em; color: #fff; padding: 100px 0 0 0; font-weight: 500; font-family: 'Aggravo';}
 
 .aboutme{width: calc(100vw - 160px); height: auto; margin: auto; color: #fff;}
 
@@ -77,7 +77,7 @@ nav>ul>li.on>a{color: #ccc;}
 
 .intro_hidetxt{display: none;}
 
-.intro_box{background: rgba(49,49,49,.4); height: auto; width: 45%; border-radius: 20px; border: 1px solid #313131; backdrop-filter: blur(30px);}
+.intro_box{background: rgba(49,49,49,.4); height: auto; width: 45%; border-radius: 20px; border: 1px solid #313131; backdrop-filter: blur(30px); padding: 30px 0;}
 .intro_box p img{width: 200px; padding-top: 100px; padding-bottom: 80px; object-fit: cover;}
 .intro_box table{font-size: 1.4em;}
 .intro_box table td{padding: 10px 60px; text-align: right;}
@@ -85,11 +85,11 @@ nav>ul>li.on>a{color: #ccc;}
 .intro_box h2{padding-top: 80px; font-size: 1.6em; font-weight: 200; padding-bottom: 100px;}
 
 .license_box{height: auto; width: 55%; text-align: center;}
-.license_box h1{font-size: 3.5em; padding-top: 50px; padding-bottom: 50px; font-family: 'JoseonPalace';}
+.license_box h1{font-size: 3.2em; padding-top: 50px; padding-bottom: 50px; font-family: 'Aggravo';}
 .licen{font-size: 1.4em; font-weight: 200;}
 .licen>li:first-child{padding-bottom: 10px;}
 
-.license_box h2{font-size: 3.5em; padding-top: 50px; padding-bottom: 50px; font-family: 'JoseonPalace';}
+.license_box h2{font-size: 3.2em; padding-top: 50px; padding-bottom: 50px; font-family: 'Aggravo';}
 
 .skills{display: flex; gap: 20px; justify-content : center;}
 .skills_1{padding-bottom: 20px;}
@@ -99,7 +99,7 @@ nav>ul>li.on>a{color: #ccc;}
 .skills_2 li img{width: 120px; height: auto; object-fit: cover; margin: 0; padding-top: 36px;}
 
 .project_space{width: calc(100vw - 160px); margin: auto; height: auto;}
-.project_space h1{font-size: 6em; color: #fff; padding: 100px 0 0 0; font-weight: 500; font-family: 'JoseonPalace';}
+.project_space h1{font-size: 6em; color: #fff; padding: 100px 0 0 0; font-weight: 500; font-family: 'Aggravo';}
 
 .project{width: calc(100vw - 160px); height: 1050px; margin: auto; color: #fff; text-align: center; position: relative;}
 
@@ -131,7 +131,7 @@ nav>ul>li.on>a{color: #ccc;}
 .tabcon_text_button li:focus a{background: rgba(49,49,49,.8);}
 
 .design_space{width: calc(100vw - 160px); margin: auto; height: auto;}
-.design_space h1{font-size: 6em; color: #fff; padding: 100px 0 100px; font-weight: 500; font-family: 'JoseonPalace';}
+.design_space h1{font-size: 6em; color: #fff; padding: 100px 0 100px; font-weight: 500; font-family: 'Aggravo';}
 
 .design{padding-bottom: 300px;}
 
